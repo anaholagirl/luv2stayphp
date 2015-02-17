@@ -1,0 +1,7 @@
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+   .header:after {content:"";height:0;display:block;visibility:hidden;clear:both;}
+
+.header {background: #87EAF5; border-bottom: 5px solid #0958EB;}
