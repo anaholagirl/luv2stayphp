@@ -11,3 +11,15 @@
 .header .nav {float: right; top: 0; right: 0; margin: 0; position: relative; left: 15px; z-index: 99999999; margin-right: 64px;}
 
 .header .nav li {display: inline-block; margin: 0; list-style: none; }
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.footer {
+    background: #DAE0E3;
+    padding: 10px 0;
+    font-size: 15px;
+    color: #a5a5a5;
+    font-family: Helvetica, Arial, sans-serif;
