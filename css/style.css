@@ -2,6 +2,12 @@
    Header
    ========================================================================== */
 
-   .header:after {content:"";height:0;display:block;visibility:hidden;clear:both;}
+.header:after {content:"";height:0;display:block;visibility:hidden;clear:both;}
 
 .header {background: #87EAF5; border-bottom: 5px solid #0958EB;}
+
+.header .branding-title {float: left; margin: 0 0 0 12px; font:  serif; text-shadow: none; color: transparent; width:122px; height:77px;}
+
+.header .nav {float: right; top: 0; right: 0; margin: 0; position: relative; left: 15px; z-index: 99999999; margin-right: 64px;}
+
+.header .nav li {display: inline-block; margin: 0; list-style: none; }
