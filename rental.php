@@ -29,7 +29,11 @@ include("inc/header.php");
       </div>
 
       <div class="rental-details">
-        <h1><span class="price">$<?php echo $listing["price"]; ?></span> <?php echo $listing["name"]; ?> </h1>
+        <h1> <?php echo $listing["name"]; ?>:  <span class="price">$<?php echo $listing["price"]; ?> Per Night </span> </h1>
+        <h2><span class="location">Rental Location: <?php echo $listing["location"]; ?></span> </h2>
+        <h3><span class="bedrooms">Bedrooms: <?php echo $listing["bedrooms"]; ?></span> </h3>
+        <h3><span class="baths">Baths: <?php echo $listing["baths"]; ?></span> </h3>
+        <h3><span class="sleeps">Sleeps: <?php echo $listing["sleeps"]; ?></span> </h3>
       </div>
 
     </div>
