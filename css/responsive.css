@@ -1,0 +1,73 @@
+/**********************
+css rule for digital screen
+and at least min width of 480px
+(above a smart phone or mobile device, like a tablet
+since already created main css for mobile)
+***********************/
+
+@media screen and (min-width: 480px) {
+
+    /**********************
+TWO COLUMN LAYOUT
+***********************/
+/*
+  #primary {
+    width: 50%;
+    float: left;
+  }
+
+  #secondary {
+    width: 40%;
+    float: right;
+  }*/
+
+ /**********************
+  calculation for listing width if do 3 columns
+  3 * 5%(2.5% + 2.5% margin) = 15% of space taken up by margins
+  100% - 15% = 85%, 85/3 = 28.333333%
+***********************/
+
+ /**********************
+PAGE: rentals
+***********************/
+
+  .listings li {
+    float: left;
+    width: 45%;
+    margin: 2.5%;
+    /*width: 28.3333%;*/
+  }
+
+  /**********************
+  clear left side of 3rd image element
+  to fix layout glitch during responsive design
+  ***********************/
+
+  .listings li:nth-child(3n) {
+    clear: left;
+  }
+
+}
+
+
+/**********************
+css rule for digital screen and
+at least min width of 660px
+(next break point above tablet, maybe laptop)
+***********************/
+
+@media screen and (min-width: 660px) {
+
+  /**********************
+ PAGE: Rentals
+  ***********************/
+
+ .listing li {
+  width: 28.333%;
+ }
+
+ .listings li:nth-child(4n) {
+  clear: left;
+}
+
+}
