@@ -13,6 +13,12 @@
         </span>
       </div>
 
+      <div class="rental-details">
+        <h1><span class="price">$<?php echo $listing["price"]; ?></span> <?php echo $listing["name"]; ?> </h1>
+      </div>
+
     </div>
 
   </div>
+
+<?php include("inc/footer.php"); ?>
