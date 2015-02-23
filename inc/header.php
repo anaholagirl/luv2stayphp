@@ -13,7 +13,7 @@
       <h1 class="branding-title"><a href="./">Luv2Stay</a></h1>
 
       <ul class="nav">
-        <li class="rentals">Rentals</li>
+        <li class="rentals"><a href="rentals.php">Rentals</a></li>
         <li class="contact">Contact</li>
       </ul>
 

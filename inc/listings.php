@@ -1,5 +1,6 @@
 <?php
 
+
 $listings = array();
   $listings[101] = array(
     "location" => "Jackson Hole",
