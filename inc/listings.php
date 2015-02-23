@@ -6,7 +6,7 @@ function list_rentals_html($listing_id, $listing) {
 
   $output = $output . "<li>";
   $output = $output . '<a href="rental.php?id=' . $listing_id . '">';
-  $output = $output . '<img src="' . $listing["img"] . '" alt="' . $listing["name"] . '" width="350" height="250">';
+  $output = $output . '<img src="' . $listing["img"] . '" alt="' . $listing["name"] . '">';
   $output = $output . '<h2 id="listname">' . $listing["name"];' ?></h2>';
   $output = $output . "<p>View Details</p>";
   $output = $output . "</a>";
