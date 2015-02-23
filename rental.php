@@ -1,6 +1,21 @@
 <?php include("inc/listings.php");
-  $pageTitle = $listing["name"];
-  include("inc/header.php");
+
+if (isset($_GET["id"])) {
+  $listing_id = $_GET["id"];
+
+  if (isset($listings[$listing_id])) {
+    $listing = $listings[$listing_id];
+  }
+}
+
+if (!isset($listing)) {
+  header("Location: rentals.php");
+  exit();
+}
+
+$pageTitle = $listing["name"];
+include("inc/header.php");
+
 ?>
 
   <div class="section-page">
