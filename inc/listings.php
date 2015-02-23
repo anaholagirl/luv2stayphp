@@ -1,5 +1,18 @@
 <?php
 
+function list_rentals_html($listing_id, $listing) {
+
+  $output = "";
+
+  $output = $output . "<li>";
+  $output = $output . '<a href="rental.php?id=' . $listing_id . '">';
+  $output = $output . '<img src="' . $listing["img"] . '" alt="' . $listing["name"] . '">';
+  $output = $output . "<p>View Details</p>";
+  $output = $output . "</a>";
+  $output = $output . "</li>";
+
+  return $output;
+}
 
 $listings = array();
   $listings[101] = array(
