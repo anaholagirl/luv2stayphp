@@ -13,7 +13,6 @@ include("inc/header.php");
       <ul class="listings">
 
         <?php foreach($listings as $listing_id => $listing) {
-          echo $listing["name"];
           echo list_rentals_html($listing_id, $listing);
           }
         ?>
